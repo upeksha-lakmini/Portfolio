@@ -1,0 +1,41 @@
+export const portfolioData = {
+  personal: {
+    name: "Upeksha Lakmini",
+    title: "Content Management Assistant - IdeaHell",
+    email: "egupekshalakmini@gmail.com",
+    phone: "+94 77 478 2241",
+    address: "Imaduwa",
+    logo: "/images/logo.jpg",
+    profileSummary: "Dedicated and results-driven graduate with a B.A. (Hons) in Communication Studies, possessing a fervent passion for journalism and media. Equipped with strong storytelling abilities, practical experience in content creation, research, and digital media. Committed to uncovering and sharing compelling narratives that resonate with diverse audiences.",
+  },
+  education: [
+    { degree: "B.A. (Hons) in Communication Studies (English Medium)", institution: "Trincomalee Campus, Eastern University of Sri Lanka", year: "Graduated 2024", details: "Second Lower Division", img: "/images/education2.png" },
+    { degree: "Diploma in English (Extension) — One-Year Course", institution: "Rajarata University of Sri Lanka", year: "2018", details: null, img: "/images/education3.png" },
+    { degree: "G.C.E. Advanced Level — Art Stream", institution: "Sangamitta Girls' College, Galle", year: "2018", details: "Sinhala — A | Media Studies — A | Economics — B", img: "/images/education1.png" },
+    { degree: "G.C.E. Ordinary Level", institution: "Sangamitta Girls' College, Galle", year: "2013", details: "4A's, 2B's, and 3C's", img: "/images/education1.png" },
+  ],
+  experience: [
+    { title: "Content Management Assistant", company: "IdeaHell", location: "Sri Lanka", period: "Present", description: "Currently working as a Content Management Assistant at IdeaHell, managing and curating digital content, coordinating media assets, and supporting editorial workflows for effective audience engagement.", current: true, img: "/images/ideahell.png" },
+    { title: "Content Management Assistant (Intern)", company: "IdeaHell", location: "Sri Lanka", period: "2024", description: "Completed an internship as a Content Management Assistant, gaining hands-on experience in content planning, digital asset management, and editorial support.", current: false, img: "/images/ideahell.png" },
+    { title: "Research Data Collection Assistant", company: "Eastern University of Sri Lanka", location: "Trincomalee, Sri Lanka", period: "February 2022", description: 'Assisted in data collection for the research study titled "Communication Strategies of China Radio International — Sinhala Service" (02 Feb – 20 Feb 2022).', current: false, img: "/images/education2.png" },
+    { title: "Media Production & University Projects", company: "Eastern University of Sri Lanka", location: "Trincomalee, Sri Lanka", period: "2020 - 2024", description: "Created short films, documentaries, scriptwriting, and newspaper production, including writing news articles during university studies.", current: false, img: "/images/education2.png" },
+  ],
+  fellowships: [
+    { title: "Young Journalists' Fellowship 2024/25", organizer: "Embassy of the United States of America in Sri Lanka, in partnership with Rainbow Resources Lanka", period: "February 2024 – February 2025", description: "Year-long fellowship programme focused on developing journalism skills, media ethics, and investigative reporting techniques.", img: "/images/fellowship1.png" },
+    { title: "Open-Source Intelligence in Journalism Workshop", organizer: "Sri Lanka Press Institute in collaboration with the International Center for Journalists, Colombo", period: "June 2024", description: "Enhanced skills in utilising open-source tools for investigative journalism.", img: "/images/fellowship2.png" },
+    { title: "Journalism Workshops — Transparency International", organizer: "Transparency International Sri Lanka", period: "2023 – 2024", description: "Participated in journalism workshops related to transparency, accountability, and media ethics.", img: "/images/fellowship3.png" },
+  ],
+  certifications: [
+    { title: 'Film Actress — "4C" Tamil Anthology Film', issuer: "Independent Film Production",year: "2024", img: null },
+    { title: "We-Digital Heroes in Digital Peacebuilding", issuer: "Online Capacity Development Training", year: "2023", img: null },
+    { title: 'Gender Sensitisation: "Let the Women Decide the Margin"', issuer: "Sri Lankan College of Journalism", year: "2022", img: null },
+    { title: "ICT Technician (NVQ Level 4)", issuer: "Vocational Training Authority of Akuressa", year: "2020", img: null },
+    { title: "D-Tec Computer Course — English, Video Production, Graphic Design", issuer: "SLTCA Vocational Training Institute", year: "Foundation & Advanced Level", img: null },
+  ],
+  skills: ["Effective Communication","Content Writing","Teamwork","Video Production","Scriptwriting","Critical Thinking","Time Management","Investigative Journalism","Leadership","Graphic Design","Storytelling","News Writing","Digital Media","Research"],
+  gallery: [] as { src: string; alt: string }[],
+  languages: [
+    { name: "Sinhala", level: "Native", flag: "🇱🇰", dots: 5 },
+    { name: "English", level: "Proficient", flag: "🇬🇧", dots: 4 },
+  ],
+};
