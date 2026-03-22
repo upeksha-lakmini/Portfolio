@@ -21,7 +21,7 @@ export default function Home() {
     <div className="min-h-screen bg-pg-bg">
       <Header />
 
-      <div className="max-w-[1320px] mx-auto px-2 mt-6 grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6 items-start">
+      <div className="max-w-[1320px] mx-auto px-4 sm:px-6 mt-6 grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-5 sm:gap-6 items-start">
         {/* LEFT */}
         <div className="space-y-5">
           <AboutMe />

@@ -18,8 +18,8 @@ export default function Experience() {
     <Card>
       <SectionTitle text="Experience" icon="💼" />
       {experience.map((exp, i) => (
-        <div key={i} className={`flex gap-4 py-4 ${i > 0 ? "border-t border-pg-border" : ""}`}>
-          <div className="w-16 h-16 rounded-lg border border-[#e2e8f0] bg-white flex items-center justify-center shrink-0 overflow-hidden shadow-sm relative">
+        <div key={i} className={`flex gap-3 sm:gap-4 py-3 sm:py-4 ${i > 0 ? "border-t border-pg-border" : ""}`}>
+          <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-lg border border-[#e2e8f0] bg-white flex items-center justify-center shrink-0 overflow-hidden shadow-sm relative">
             <Image
               src={imageMap[exp.img] || exp.img}
               alt={exp.company}
@@ -28,12 +28,12 @@ export default function Experience() {
             />
           </div>
           <div className="flex-1 min-w-0">
-            <h4 className="text-[15px] font-bold">{exp.title}</h4>
-            <p className="text-[13px] text-txt-secondary">
+            <h4 className="text-sm sm:text-[15px] font-bold">{exp.title}</h4>
+            <p className="text-xs sm:text-[13px] text-txt-secondary">
               {exp.company} · {exp.location}
             </p>
             <p className="text-xs text-txt-light mt-0.5">{exp.period}</p>
-            <p className="text-[13px] text-txt-secondary leading-[1.7] mt-2">
+            <p className="text-xs sm:text-[13px] text-txt-secondary leading-[1.7] mt-1.5 sm:mt-2">
               {exp.description}
             </p>
           </div>

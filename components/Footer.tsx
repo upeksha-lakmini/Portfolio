@@ -4,8 +4,8 @@ export default function Footer() {
   const d = portfolioData.personal;
 
   return (
-    <footer className="bg-pg-dark px-2 py-7 mt-5">
-      <div className="max-w-[1320px] mx-auto flex items-center justify-between flex-wrap gap-3">
+    <footer className="bg-pg-dark px-4 sm:px-6 py-6 sm:py-7 mt-5">
+      <div className="max-w-[1320px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
         <span className="font-display text-sm font-semibold text-white">
           Upeksha Lakmini
         </span>

@@ -12,20 +12,20 @@ export default function ImagePreview({ src, onClose }: ImagePreviewProps) {
 
   return (
     <div
-      className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-6"
+      className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6"
       onClick={onClose}
     >
       <div
-        className="relative max-w-2xl w-full bg-white rounded-xl shadow-2xl overflow-hidden animate-[fadeUp_.3s_ease-out]"
+        className="relative max-w-[95vw] sm:max-w-2xl w-full bg-white rounded-xl shadow-2xl overflow-hidden animate-[fadeUp_.3s_ease-out]"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           onClick={onClose}
-          className="absolute top-3 right-3 w-8 h-8 rounded-full bg-black/50 text-white flex items-center justify-center hover:bg-black/80 transition-colors z-10 text-lg"
+          className="absolute top-2 right-2 sm:top-3 sm:right-3 w-8 h-8 rounded-full bg-black/50 text-white flex items-center justify-center hover:bg-black/80 transition-colors z-10 text-lg"
         >
           &times;
         </button>
-        <div className="relative w-full min-h-[300px]">
+        <div className="relative w-full min-h-[200px] sm:min-h-[300px]">
           <Image
             src={src}
             alt="Certificate Preview"
